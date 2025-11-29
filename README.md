@@ -1,1 +1,43 @@
 ﻿# Checkpoint-TypeScript-Fundamentals
+tsc vehicle.ts git init git add vehicle.ts vehicle.js README.md git commit -m "Add Vehicle interface and Car implementation with README" git remote add origin https://github.com//.git git branch -M main git push -u origin main
+
+Checkpoint : Fondamentaux TypeScript
+Description
+Exercice simple en TypeScript : définition d'une interface Vehicle et implémentation d'une classe Car.
+
+Fichiers inclus :
+
+vehicle.ts — source TypeScript (interface Vehicle, classe Car, instance et appel de start()).
+vehicle.js — sortie JavaScript compilée (générée par tsc).
+Ce qui a été implémenté
+Interface Vehicle : make: string, model: string, year: number, start(): void.
+Classe Car qui implémente Vehicle, avec un constructeur pour initialiser les propriétés et une méthode start() qui affiche Car engine started.
+Compiler et exécuter
+Vérifiez que Node.js et TypeScript sont installés. Depuis le dossier checkpoint_typeScript_fundamentals :
+
+# Installer TypeScript si nécessaire
+sudo apt install node-typescript
+
+# Compiler TypeScript en JavaScript
+tsc vehicle.ts
+
+# Exécuter le fichier compilé
+node vehicle.js
+Sortie attendue :
+
+Car engine started
+Soumission
+Créez un dépôt public GitHub (ou utilisez un dépôt existant).
+Ajoutez les fichiers du projet et poussez-les.
+Exemple de commandes :
+
+git init
+git add vehicle.ts vehicle.js README.md
+git commit -m "Add Vehicle interface and Car implementation with README"
+# Remplacez l'URL par celle de votre dépôt GitHub
+git remote add origin https://github.com/talelchaanbi/Checkpoint-TypeScript-Fundamentals.git
+git branch -M main
+git push -u origin main
+Une fois poussé, copiez l'URL du dépôt et soumettez-la comme lien du checkpoint.
+
+Si vous voulez, je peux créer le commit et pousser pour vous (j'ai déjà poussé une première version si nécessaire).
